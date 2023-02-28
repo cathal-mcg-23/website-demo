@@ -1,0 +1,612 @@
+body
+{
+    background-color: rgb(204,255,204);
+    background-image: url("../images/pic5e2.png");
+
+    background-position: center; 
+    font-size: 125%;
+
+}
+
+
+
+
+
+
+#myimg
+{
+    float: left; 
+    margin-right: 10px;
+    height:8em; 
+}
+
+
+header
+{
+    background-color: rgb(102,255,102); /* 119 255 119 */
+    background-image: url("../images/pic8.png");
+    background-size: 100% auto;
+    background-position: center; 
+    text-align: center;
+  border-radius: 12px;
+
+}
+
+h1
+{
+    font-family: inherit;
+    font-size: 500%;
+    margin-bottom: 0;
+    padding-top: 25px;
+    
+    text-shadow: -2px 0 rgb(204,255,204), 0 2px rgb(204,255,204), 2px 0 rgb(204,255,204), 0 -2px black,
+        rgb(204,255,204) 6px -6px 5px,
+        rgb(204,255,204) -6px -6px 5px,
+        rgb(204,255,204) 6px 6px 5px,
+        rgb(204,255,204) -6px 6px 5px; 
+    
+}
+
+h1 a
+{
+    color: black;
+    text-decoration: none;
+}
+
+nav
+{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    clear: left;
+    background-color: black;
+  border-radius:  0px 0px 9px 9px;
+
+}
+
+.flex-container
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-flow: row wrap;
+}
+
+ul
+{
+    list-style-type:square;
+}
+
+li 
+{ 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+
+li a:hover
+{
+    color: yellow;
+}
+
+
+#currentPage
+{
+      border-radius:  9px 9px 0px 0px;
+
+}
+
+main
+{
+    padding-top: 8px;
+    padding-bottom: 24px;
+    
+    border-left: 40px solid green ;
+    border-right: 40px solid green ;
+    
+    border-image: url(../images/peel7.png) 40  round;
+
+    padding-left: 26px;
+    padding-right: 26px;
+    
+    
+}
+
+#firstLetter
+{
+    font-weight: bold;
+    font-size: 300%;
+    float: left;
+    margin-top: -7px;
+    margin-bottom: -28px;
+    margin-left: -3px;
+}
+
+#clearBoth
+{
+    clear: both;
+}
+
+
+main a
+{
+    color:#b900b9;
+}
+
+aside
+{
+    width: 30%;
+    padding-left: 12px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: right;
+    margin-left: 10px;
+    background-color: rgb(102, 255, 102);
+    margin-top:5px;
+    border: 3px #b200ff;
+
+    border-radius:  9px;
+}
+
+h2
+{
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+#setupimg
+{
+}
+
+#columnText
+{
+    font-weight: bold;
+    margin-top: 12px;
+    column-count: 3;
+    background-color: rgb(194,231,41) ;
+    background-color: rgb(235,255,82);
+}
+
+#columnText h2
+{
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+#myarticle
+{
+    width: 400px;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    display: inline-block;
+}
+#myarticle img
+{
+}
+
+#forvideo
+{
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+article
+{
+    
+}
+
+#bottlingA
+{
+    float: left;
+    background-color: rgb(255, 234, 46);
+}
+
+.writing
+{
+    font-family: Sofia, monospace;    
+}
+
+
+table
+{
+    border-collapse: collapse;
+    width: 47%;
+    float: right;
+    height: 450px;
+    border-radius:  12px 12px 12px 12px;
+}
+
+iframe
+{
+    float: left;
+    margin-bottom: 30px;
+    width: 47%;
+}
+
+td
+{
+  border: 2px solid rgb(243, 118, 9);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    width: 33%;
+    background-color: rgb( 255,165,0 );
+}
+
+section
+{
+    margin-top: 25px;
+}
+
+
+thead
+{
+}
+
+thead th
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(243, 118, 9);
+    border: 2px solid rgb( 255,165,0 );
+    text-align: center;
+}
+
+.leftCell
+{
+    background-color: rgb(243, 118, 9);
+    border: 2px solid rgb( 255,165,0 );
+}
+
+#formSection
+{
+    text-align: center;
+    float: inherit;
+    clear: both;
+    background-color: rgb(243, 118, 9);
+    margin-left: 16%;
+    margin-right: 16%;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    align-items: center;
+}
+
+#formSection h2
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb( 255,165,0 );
+    border: solid 2px black;
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+#formSection h3
+{
+    border: solid 2px black;
+    width: 5em;
+    background-color: rgb( 255,165,0 );
+}
+
+h3
+{
+    text-align: left;
+    padding-left: 1em;
+    margin-left: 7%;
+}
+
+legend
+{
+    text-align: center;
+    background-color: rgb( 255,165,0 );
+    border: solid 2px black;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+fieldset
+{
+    border: solid 2px black;
+    background-color: rgb( 255,165,0 );
+}
+
+
+.radioFields
+{
+    display: inline-block;
+    width: 20%;;
+    text-align: left;
+}
+
+
+#textBoxes
+{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#textBoxes label
+{   
+    color: black;
+    float: left;
+    width: 45%;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+
+
+#textBoxes input 
+{
+    width: 8em;
+    float: left;
+    margin-top: 5px;
+    padding-left: 0;
+    margin-left: 10%;
+}
+
+
+button
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 6em;
+}
+
+#myButtons
+{
+    clear: both;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 2px black;
+    background-color: rgb( 255,165,0 );
+    width: 50%;
+    margin-left:25%;
+}
+
+#suppliers section
+{
+    margin-top: 12px;
+    
+}
+
+
+footer
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(102,255,102);
+    text-align: right;
+    clear: both;
+    border-radius: 12px;
+
+}
+
+#year
+{
+    margin-right: 25px;
+}
+
+/*
+tbody tr:hover
+{
+    text-decoration: underline;
+    background-image: linear-gradient( rgba(255,255,0,0), yellow);
+}
+*/
+
+/*
+home					204 255 204
+setup					214	255 163
+mashing					224 255 123
+fermenting				235 255  82
+bottling				245 255  41
+suppliers	yellow		255 255   0
+
+home					102 255 102
+setup					133 247  82
+mashing					163 239  61
+fermenting				194 231  41
+bottling				224 222  20
+suppliers	gold		255 215   0
+*/
+
+#homeArticle
+{
+    background-color: rgb(204,255,204);
+}
+
+#suppliers
+{
+    background-color: rgb( 255,165,0 );
+}
+#suppliers footer 
+{
+    background-color: rgb(243, 118, 9);
+}
+#suppliers header
+{
+    background-color: rgb(243, 118, 9); /* 119 255 119 */
+    background-image: url("../images/pic8.png");
+    background-size: 100% auto;
+    background-position: center; 
+    text-align: center;
+}
+
+#suppliers h1
+{
+    text-shadow: -2px 0 rgb( 255,165,0 ), 0 2px rgb( 255,165,0 ), 2px 0 rgb( 255,165,0 ), 0 -2px black,
+        rgb( 255,165,0 ) 6px -6px 5px,
+        rgb( 255,165,0 ) -6px -6px 5px,
+        rgb( 255,165,0 ) 6px 6px 5px,
+        rgb( 255,165,0 ) -6px 6px 5px; 
+}
+#suppliers #currentPage
+{
+    background-color: rgb( 255,165,0 );
+    background-color: rgb( 255,165,0 );
+    color: black;
+}
+
+#setup
+{
+    background-color: rgb(214,255,163);
+}
+#setup footer 
+{
+    background-color: rgb( 133,247,102 );
+}
+#setup header
+{
+    background-color: rgb( 133,247,102 ); /* 119 255 119 */
+    background-image: url("../images/pic8.png");
+    background-size: 100% auto;
+    background-position: center; 
+    text-align: center;
+}
+#setup h1
+{
+    text-shadow: -2px 0  rgb(214,255,163), 0 2px  rgb(214,255,163), 2px 0  rgb(214,255,163), 0 -2px black,
+         rgb(214,255,163) 6px -6px 5px,
+         rgb(214,255,163) -6px -6px 5px,
+         rgb(214,255,163) 6px 6px 5px,
+         rgb(214,255,163) -6px 6px 5px; 
+}
+#setup #currentPage
+{
+    background-color:  rgb(214,255,163);
+    color: black;
+}
+
+#setup article
+{
+    background-color: rgb(00,255,00);
+    background-color:  rgb(214,255,163);
+}
+
+#setupLeft
+{
+    float: left;
+}
+
+#mashing
+{
+    background-color: rgb(224,255,123);
+}
+#mashing footer 
+{
+    background-color: rgb(163,239,61);
+}
+#mashing header
+{
+    background-color: rgb(163,239,61);
+    background-image: url("../images/pic8.png");
+    background-size: 100% auto;
+    background-position: center; 
+    text-align: center;
+}
+#mashing h1
+{
+    text-shadow: -2px 0 rgb(224,255,123), 0 2px rgb(224,255,123), 2px 0 rgb(224,255,123), 0 -2px black,
+        rgb(224,255,123) 6px -6px 5px,
+        rgb(224,255,123) -6px -6px 5px,
+        rgb(224,255,123) 6px 6px 5px,
+        rgb(224,255,123) -6px 6px 5px; 
+}
+#mashing #currentPage
+{
+    background-color: rgb(224,255,123);
+    color: black;
+}
+
+
+#mashing article
+{
+    background-color: rgb(224,255,123);
+}
+
+
+#fermenting
+{
+    background-color: rgb(235,255,82) ;
+}
+#fermenting footer 
+{
+    background-color: rgb(194,231,41) ;
+}
+#fermenting header
+{
+    background-color: rgb(194,231,41) ;
+    background-image: url("../images/pic8.png");
+    background-size: 100% auto;
+    background-position: center; 
+    text-align: center;
+}
+#fermenting h1
+{
+    text-shadow: -2px 0 rgb(235,255,82) , 0 2px rgb(235,255,82) , 2px 0 rgb(235,255,82) , 0 -2px black,
+        rgb(235,255,82)  6px -6px 5px,
+        rgb(235,255,82)  -6px -6px 5px,
+        rgb(235,255,82)  6px 6px 5px,
+        rgb(235,255,82)  -6px 6px 5px; 
+}
+#fermenting #currentPage
+{
+    background-color: rgb(235,255,82) ;
+    color: black;
+}
+
+#bottling
+{
+    background-color: rgb(255, 234, 46);
+}
+#bottling footer 
+{
+    background-color: rgb(200, 180, 0);
+}
+#bottling header
+{
+    background-color: rgb(200, 180, 0);
+    background-image: url("../images/pic8.png");
+    background-size: 100% auto;
+    background-position: center; 
+    text-align: center;
+}
+#bottling h1
+{
+    text-shadow: -2px 0 rgb(255, 234, 46), 0 2px rgb(255, 234, 46), 2px 0 rgb(255, 234, 46), 0 -2px black,
+        rgb(255, 234, 46) 6px -6px 5px,
+        rgb(255, 234, 46) -6px -6px 5px,
+        rgb(255, 234, 46) 6px 6px 5px,
+        rgb(255, 234, 46) -6px 6px 5px; 
+}
+#bottling #currentPage
+{
+    background-color: rgb(255, 234, 46);
+    background-color: rgb(255, 234, 46);
+    color: black;
+}

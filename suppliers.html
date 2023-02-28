@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="A guide to using fruit that has fallen from trees to make juices and learn 
+                 about nature, cooking and science">
+
+    <meta name="keywords" content="apples, cider, food, drink, hobby, map, locations">
+
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style1.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Suppliers - Free Beverage</title>
+
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 60px;
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body id="suppliers">
+    <header>
+        <a href="index.html"><img id="myimg" alt="logo pic" src="images/pic2e2.png" /></a>
+        <h1><a href="index.html">Free Beverage </a></h1>
+        <nav>
+            <ul class="flex-container">
+
+                <li><a href="setup.html">Setup</a></li>
+                <li><a href="mashing.html">Mashing</a></li>
+                <li><a href="fermenting.html">Fermenting</a></li>
+                <li><a href="bottling.html">Bottling</a></li>
+                <li><a id="currentPage" href="suppliers.html">Suppliers</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2325.938048811111!2d-6.632356684609178!3d54.34040310748853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDIwJzI1LjQiTiA2wrAzNyc0OC42Ilc!5e0!3m2!1sen!2sie!4v1564063927629!5m2!1sen!2sie" width="600" height="452" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">map legend</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="leftCell">
+                            <object width="50px" height="50px" data="images/flag_icon1.svg" type="image/svg+xml">
+                            </object>
+                        </td>
+                        <td>too many</td>
+                        <td rowspan="2">apples</td>
+
+                    </tr>
+                    <tr>
+                        <td class="leftCell">
+                            <object width="50px" height="50px" data="images/flag_icon2.svg" type="image/svg+xml">
+                            </object>
+                        </td>
+                        <td>too few</td>
+
+                    </tr>
+                    <tr>
+                        <td class="leftCell">
+                            <object width="50px" height="50px" data="images/flag_icon3.svg" type="image/svg+xml">
+                            </object>
+                        </td>
+                        <td>too much</td>
+                        <td rowspan="2">equipment</td>
+
+                    </tr>
+                    <tr>
+                        <td class="leftCell">
+                            <object width="50px" height="50px" data="images/flag_icon4.svg" type="image/svg+xml">
+                            </object>
+                        </td>
+                        <td>too little</td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="leftCell">
+                            <object width="50px" height="50px" data="images/flag_icon5.svg" type="image/svg+xml">
+                            </object>
+                        </td>
+                        <td>too much</td>
+                        <td rowspan="2">time</td>
+
+                    </tr>
+                    <tr>
+                        <td class="leftCell">
+                            <object width="50px" height="50px" data="images/flag_icon6.svg" type="image/svg+xml">
+                            </object>
+                        </td>
+                        <td>too little</td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+        <section id="formSection">
+
+            <form name="upload_form" action="http://year1.ccpdev.me/FormTest.php" method="post" enctype="multipart/form-data">
+
+
+                <h2>Supplier Details</h2>
+                <h3>I have...</h3>
+                <fieldset class="radioFields">
+                    <legend>Apples</legend>
+
+                    <input type="radio" name="apples" id="apples1" value="too_much">
+                    <label for="apples1">Too many</label><br>
+                    <input type="radio" name="apples" id="apples2" value="enough" checked>
+                    <label for="apples2">Enough</label><br>
+                    <input type="radio" name="apples" id="apples3" value="too_few">
+                    <label for="apples3">Too few</label>
+
+                </fieldset>
+
+                <fieldset class="radioFields">
+                    <legend>Equipment</legend>
+
+                    <input type="radio" name="equipment" id="equipment1" value="too_much">
+                    <label for="equipment1">Too much</label><br>
+                    <input type="radio" name="equipment" id="equipment2" value="enough" checked>
+                    <label for="equipment2">Enough</label><br>
+                    <input type="radio" name="equipment" id="equipment3" value="too_few">
+                    <label for="equipment3">Too little</label>
+
+                </fieldset>
+
+                <fieldset class="radioFields">
+                    <legend>Time</legend>
+
+                    <input type="radio" name="time" id="time1" value="too_much">
+                    <label for="time1">Too much</label><br>
+                    <input type="radio" name="time" id="time2" value="enough" checked>
+                    <label for="time2">Enough</label><br>
+                    <input type="radio" name="time" id="time3" value="too_few">
+                    <label for="time3">Too little</label>
+
+                </fieldset>
+
+                <br>
+                <br>
+                <br>
+
+                <fieldset id="textBoxes">
+
+                    <label for="firstname">First name<span style="color: red;">&ast;</span></label>
+                    <input type="text" name="firstname" id="firstname" required><br>
+                    <label for="lastname">Last name&nbsp;</label>
+                    <input type="text" name="lastname" id="lastname"><br>
+                    <label for="address">Location<span style="color: red;">&ast;</span></label>
+                    <input type="text" name="address" id="address" required><br>
+                    <label for="email">Email&nbsp;</label>
+                    <input type="email" name="email" id="email"><br>
+
+
+
+
+                </fieldset>
+                <section>
+
+                    <section id="myButtons">
+                        <button type="reset" name="reset" id="reset">Reset</button>
+                        <button type="submit" name="register" id="button" value="Register">Submit</button>
+                    </section>
+
+                </section>
+
+
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+        Copyright &copy; <span id="year"></span>
+
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
+
+</body>
+
+</html>
